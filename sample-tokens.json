@@ -1,86 +1,89 @@
 {
-  "$description": "Sample design tokens file for GitFig. Edit this file or replace with your own tokens.",
+  "1": {
+    "$type": "number",
+    "$value": 0
+  },
   "colors": {
-    "primary": {
-      "$value": "#0066FF",
-      "$type": "color",
-      "$description": "Primary brand color"
-    },
-    "secondary": {
-      "$value": "#6B7280",
-      "$type": "color"
-    },
-    "background": {
-      "default": {
-        "$value": "#FFFFFF",
-        "$type": "color"
-      },
-      "subtle": {
-        "$value": "#F9FAFB",
-        "$type": "color"
-      }
-    },
     "text": {
       "primary": {
-        "$value": "#111827",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#111827"
       },
       "secondary": {
-        "$value": "#6B7280",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#6b7280"
       }
     },
+    "error": {
+      "$type": "color",
+      "$value": "#ef4444"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "#0066ff",
+      "$description": "Primary brand color"
+    },
     "success": {
-      "$value": "#10B981",
-      "$type": "color"
+      "$type": "color",
+      "$value": "#10b981"
     },
     "warning": {
-      "$value": "#F59E0B",
-      "$type": "color"
+      "$type": "color",
+      "$value": "#f59e0b"
     },
-    "error": {
-      "$value": "#EF4444",
-      "$type": "color"
+    "secondary": {
+      "$type": "color",
+      "$value": "#6b7280"
+    },
+    "background": {
+      "subtle": {
+        "$type": "color",
+        "$value": "#f9fafb"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
     }
   },
   "spacing": {
-    "xs": {
-      "$value": 4,
-      "$type": "number"
-    },
-    "sm": {
-      "$value": 8,
-      "$type": "number"
+    "lg": {
+      "$type": "number",
+      "$value": 24
     },
     "md": {
-      "$value": 16,
-      "$type": "number"
+      "$type": "number",
+      "$value": 16
     },
-    "lg": {
-      "$value": 24,
-      "$type": "number"
+    "sm": {
+      "$type": "number",
+      "$value": 8
     },
     "xl": {
-      "$value": 32,
-      "$type": "number"
+      "$type": "number",
+      "$value": 32
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 4
     }
   },
   "borderRadius": {
-    "sm": {
-      "$value": 4,
-      "$type": "number"
+    "lg": {
+      "$type": "number",
+      "$value": 12
     },
     "md": {
-      "$value": 8,
-      "$type": "number"
+      "$type": "number",
+      "$value": 8
     },
-    "lg": {
-      "$value": 12,
-      "$type": "number"
+    "sm": {
+      "$type": "number",
+      "$value": 4
     },
     "full": {
-      "$value": 9999,
-      "$type": "number"
+      "$type": "number",
+      "$value": 9999
     }
   }
 }
